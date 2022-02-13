@@ -1,0 +1,319 @@
+/*---------------------------INDEX-------------------------*/
+title1	{
+    background-color: #1E90FF;
+    position: absolute;
+    width:100%;
+    height:100px;
+    left:0px;
+    top:0px;
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+}
+.tce_img {
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+.tn_gov_img {    
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.grid-container {
+  position: absolute;
+  top: 150px;
+  display: grid;
+  grid-gap: 50px 50px;
+  grid-template-columns: 165px 165px 165px 165px 165px 165px;
+  padding: 50px;
+}
+.grid-item {
+  padding: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  box-shadow:5px 10px 18px #888888;
+  text-decoration: none;
+  color: green;
+}
+
+/*---------------------------dam_profile.html-------------------------*/
+title2    {
+    position: absolute;
+    top: 125px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #00FFFF;
+    color: orange;
+    font-size: 40px;
+}
+
+table {
+    position: absolute;
+    top: 225px;
+    width:70%;
+    margin-left:15%; 
+    margin-right:15%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.table_tr1 {
+    height: 50px;
+    font-size: 25px;
+    background-color: #FFD700;
+    color: red;
+}
+.table_tr2 {
+    height:75px;
+    font-size: 30px;
+    color: #1E90FF;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+.box1 {
+    position: absolute;
+    top: 400px;
+    left: 35%;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    box-shadow:5px 10px 18px #888888;
+}
+.box2 {
+    position: absolute;
+    top: 400px;
+    right: 35%;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    box-shadow:5px 10px 18px #888888;
+}
+.box3 {
+    position: absolute;
+    top: 400px;
+    left: 17.5%;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    box-shadow:5px 10px 18px #888888;
+}
+.box4 {
+    position: absolute;
+    top: 400px;
+    right: 17.5%;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    box-shadow:5px 10px 18px #888888;
+}
+.inner-box1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #FFD700;
+    color: #1E90FF;
+    font-size: 30px;
+}
+.inner-box2 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 125px;
+    background-color: white;
+    box-shadow: inset 0px 0px 10px red;
+    color: green;
+    font-size: 50px;
+}
+b1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+
+/*---------------------------list_of_dams.html-------------------------*/
+.table1 {
+    position: absolute;
+    top: 225px;
+    width:95%;
+    margin-left:2.5%; 
+    margin-right:2.5%;
+}
+.table_tr3 {
+    height: 50px;
+    font-size: 25px;
+    background-color: #FFD700;
+    color: red;
+}
+.table_tr4 {
+    height:75px;
+    font-size: 30px;
+    color: #1E90FF;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+
+/*---------------------------SideBar-------------------------*/
+.sidenav {
+  height: 10px;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 115px;
+  left: 0;
+  background-color: blue;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  position: absolute;top: 20px;left: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: yellow;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 36px;
+}
+.arrow_mark {
+    cursor:pointer;
+    position: absolute;
+    top: 115px;
+    left: 0px
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*------------------------*/
+@media only screen and (max-width: 768px) {
+  /*---Mobile Phone---*/
+  /*--------Index.html-------*/
+    title1 {
+        font-size: 20px;
+        height:75px;
+    }   
+    title2 {
+        top: 90px;
+        font-size: 20px;
+    }
+    .tce_img {
+        top: 25px;
+        left: 5px;
+        width: 55px;
+        height: 45px;
+    }
+    .tn_gov_img {    
+        top: 25px;
+        right: 5px;
+        width: 50px;
+        height: 42px;
+    }
+    .grid-container {
+         grid-gap: 35px 35px;
+         grid-template-columns: 150px 150px;
+         padding: 5px;
+    }
+    .grid-item {
+        font-size: 10px;
+    }
+    .arrow_mark {
+        top: 68px;
+    }
+    .sidenav {
+        top: 80px;
+        height: 5px;
+    }
+    .sidenav a {
+        font-size: 20px;
+    }
+    .sidenav .closebtn {
+        font-size: 15px;
+    }
+    table {
+        top: 150px;
+        width:90%;
+        margin-left:5%; 
+        margin-right:5%;
+    }
+    .table1 {
+        top: 160px;
+        left: -9px;
+        width:100%;
+    }
+    .table_tr1 {
+        height: 40px;
+        font-size: 15px;
+    }
+    .table_tr2 {
+        height:60px;
+        font-size: 15px;
+    }
+    .table_tr3 {
+        height: 40px;
+        font-size: 10px;
+    }
+    .table_tr4 {
+        height:60px;
+        font-size: 10px;
+    }
+    .box1 {
+        top: 550px;
+        left: 22.5%;
+        width: 200px;
+        height: 200px;
+    }
+    .box2 {
+        top: 800px;
+        left: 22.5%;
+        width: 200px;
+        height: 200px;
+    }
+    .box3 {
+        top: 300px;
+        left: 22.5%;
+        width: 200px;
+        height: 200px;
+    }
+    .box4 {
+        top: 1050px;
+        left: 22.5%;
+        width: 200px;
+        height: 200px;
+    }
+    .inner-box1 {
+        height: 55px;
+    }
+    .inner-box2 {
+        height: 150px;
+    }
+}
+@media only screen and (min-width: 600px) {
+  /*-----Tablet-----*/
+}
+@media only screen and (min-width: 768px) {
+  /*-----Destop-----*/
+}

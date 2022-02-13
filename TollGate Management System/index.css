@@ -1,0 +1,283 @@
+/*-----------------AboutUs----------------*/ 
+.WelcomeBox {
+  width: 90%;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  box-shadow:5px 10px 18px #888888;
+  text-decoration: none;
+  color: green;
+}
+title1	{
+    background-color: #1E90FF;
+    position: absolute;
+    width:100%;
+    height:100px;
+    left:0px;
+    top:0px;
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+}
+para {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    right: 10px;
+    color: #888888;
+    font-size: 30px;
+}
+StartBox {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    width: 175px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 22px;
+}
+/*-----------------------------------------------*/
+/*------------------Index / Home-------------------*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.modal {
+  display: block;
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  padding-top: 60px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%; 
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover, .close:focus, .closebtn:hover {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+@media screen and (min-width: 768px) {
+  .modal-content {
+    width: 25%; 
+  }
+}
+
+log {
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    right: 600px;
+    width: 200px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 22px;
+}
+/*---------------------------------*/
+/*---------Home page-----------*/
+/*------Toast--------*/
+#toast {
+    visibility: hidden;
+    max-width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    position: fixed;
+    z-index: 1;
+    left: 0;right:0;
+    bottom: 30px;
+    font-size: 17px;
+    white-space: nowrap;
+}
+#toast #img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #fff;
+}
+#toast #desc{
+    color: #fff;
+    padding: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 2s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 4s, fadeout 0.5s 4.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+ from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes expand {
+    from {min-width: 50px} 
+    to {min-width: 350px}
+}
+
+@keyframes expand {
+    from {min-width: 50px}
+    to {min-width: 350px}
+}
+@-webkit-keyframes stay {
+    from {min-width: 350px} 
+    to {min-width: 350px}
+}
+
+@keyframes stay {
+    from {min-width: 350px}
+    to {min-width: 350px}
+    
+}
+@-webkit-keyframes shrink {
+    from {min-width: 350px;} 
+    to {min-width: 50px;}
+}
+
+@keyframes shrink {
+    from {min-width: 350px;} 
+    to {min-width: 50px;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 60px; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 60px; opacity: 0;}
+}
+/*--------------------------------------*/
+/*-------------Profile DropDown--------------*/
+profileBox {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 200px;
+    height: 50px; 
+    background-color: white;
+}
+profileBoxIn1 {
+    float: left;
+    width: 50px;
+    height: 100%;
+    background-color: #F1E5E3;
+}
+profileBoxIn2 {
+    float: right;
+    width: 150px;
+    height: 100%;
+    background-color: #FAF7F6;
+    text-align: center;
+    color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 75px;
+  left: 90px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover profileBox {background-color: #3e8e41;}
