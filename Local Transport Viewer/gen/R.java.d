@@ -1,0 +1,12 @@
+/storage/emulated/0/.sketchware/mysc/603/gen/com/my/duja/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/androidx/appcompat/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/androidx/core/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/androidx/appcompat/resources/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/androidx/coordinatorlayout/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/com/google/android/material/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/androidx/transition/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/androidx/cardview/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/androidx/recyclerview/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/com/google/android/gms/common/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/com/google/android/gms/base/R.java \
+/storage/emulated/0/.sketchware/mysc/603/gen/com/google/android/gms/maps/R.java \
